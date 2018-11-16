@@ -2,13 +2,13 @@
 ### 基于coreseek-3.2.14改造(部分c语法老旧) 
 
 ####目录结构
-
+
 ```
 docker-sphinx
 |-- coreseek-3.2.14               coreseek源码包 
 |-- etc     
     |-- csft.conf                 sphinx配置文件
-    |-- example.sql               案例sql文件
+    |-- example.sql               案例sql文件
     |-- sphinx-min.conf.dist      简单配置参考
     |-- sphinx.conf.dist          复杂配置参考
 |-- Dockerfile
