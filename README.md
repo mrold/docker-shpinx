@@ -5,8 +5,8 @@
 
 ```
 docker-sphinx
-|-- coreseek-3.2.14               coreseek源码包 
-|-- etc     
+|-- coreseek-3.2.14               coreseek源码包 
+|-- etc/     
     |-- csft.conf                 sphinx配置文件
     |-- example.sql               案例sql文件
     |-- sphinx-min.conf.dist      简单配置参考
@@ -22,3 +22,4 @@ docker-sphinx
 3. 启动一个新容器`docker run ...`
 
 #### 其它
+参考文章：[http://blog.chinaunix.net/uid-20639775-id-3261834.html](http://blog.chinaunix.net/uid-20639775-id-3261834.html)
