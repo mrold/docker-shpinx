@@ -4,7 +4,7 @@
 ####目录结构
 
 ```
-docker-sphinx
+docker-sphinx/
 |-- coreseek-3.2.14               coreseek源码包 
 |-- etc/     
     |-- csft.conf                 sphinx配置文件
@@ -17,8 +17,8 @@ docker-sphinx
 ```
 #### 使用步骤
 
-1. 正确配置csft.conf文件。如果需要测试。创建数据库 > 执行example.sql
-2. buid镜像 `docker build -t my-sphinx:v1 .`
+1. 正确配置csft.conf文件。如果需要测试：创建数据库 > 执行example.sql
+2. build镜像 `docker build -t my-sphinx:v1 .`
 3. 启动一个新容器`docker run ...`
 
 #### 其它
