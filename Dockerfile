@@ -19,7 +19,7 @@ RUN cd /usr/local/src/coreseek-3.2.14/csft-3.2.14 \
     && make && make install
 
 # 复制本地配置文件到容器，
-COPY ./etc/csft.conf /usr/local/coreseek/etc
+COPY ./etc/csft.conf /usr/local/coreseek/etc/csft.conf
 
 VOLUME ["/usr/local/coreseek/etc", "/usr/local/coreseek/var/log"]
 
